@@ -3,8 +3,8 @@ import pickle
 import os
 
 # File paths
-model_path = "fake_news_model (2).pkl"
-vectorizer_path = "vectorizer (3).pkl"
+model_path = "fake_news_model.pkl"
+vectorizer_path = "vectorizer.pkl"
 
 # Load model
 if os.path.exists(model_path):
